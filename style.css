@@ -1,0 +1,39 @@
+* {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight:600;
+}
+
+button {
+    padding: 8px;
+    margin: auto;
+    border: none;
+    outline: none;
+    margin: 8px;
+}
+
+button:hover {
+    background-color: #b9b9b9;
+}
+
+#calculator {
+    width: 250px;
+    height: 290px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border : 2px solid black;
+}
+
+#res {
+    width: 90%;
+    grid-area: res;
+    text-align: right;
+    border:none;
+    padding: 10px;
+}
+
+#plate {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

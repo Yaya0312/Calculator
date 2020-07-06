@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <div id="calculator">
+    <input type="text" name="res" id="res" disabled value="0">
+    <div id="plate">
+      <button class="action" id="back" onclick="back()">C</button>
+      <button class="action" id="clear" onclick="clean()">CE</button>
+      <button class="action" id="mod" onclick="put('%')">%</button>
+      <button id="divide" onclick="put('÷')">÷</button>
+      <button onclick="put(7)">7</button>
+      <button onclick="put(8)">8</button>
+      <button onclick="put(9)">9</button>
+      <button id="mult" onclick="put('x')">x</button>
+      <button onclick="put(4)">4</button>
+      <button onclick="put(5)">5</button>
+      <button onclick="put(6)">6</button>
+      <button id="sub" onclick="put('-')">-</button>
+      <button onclick="put(1)">1</button>
+      <button onclick="put(2)">2</button>
+      <button onclick="put(3)">3</button>
+      <button id="add" onclick="put('+')">+</button>
+      <button onclick="neg()">+/-</button>
+      <button onclick="put(0)">0</button>
+      <button onclick="put('.')">.</button>
+      <button id="equal" onclick="res()">=</button>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
