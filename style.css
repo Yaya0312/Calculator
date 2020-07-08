@@ -1,3 +1,7 @@
+body {
+    background-color: #ecf0f1;
+}
+
 * {
     font-family: 'Open Sans', sans-serif;;
     font-size: 16px;
@@ -14,18 +18,19 @@ button {
 }
 
 button:hover {
-    background-color: #b9b9b9;
+    background-color: #2980b9;
 }
 
 #calculator {
+    margin : auto;
     width: 250px;
-    height: 290px;
-    background-color: #ecf0f1;
+    height: 310px;
+    background-color: #3498db;
+    border-radius: 5%;
     padding: 20px;
-    border : 2px solid black;
 }
 
-#res {
+input {
     width: 90%;
     grid-area: res;
     text-align: right;
